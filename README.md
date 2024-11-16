@@ -31,7 +31,7 @@ Compile and train the model using categorical cross-entropy loss and the Adam op
 ### Name: BASKARAN V
 ### Register Number:212222230020
 ### 1.fit_vectorizer function
-```
+```PYTHON
 def fit_vectorizer(corpus):
     """
     Instantiates the vectorizer class on the corpus
@@ -63,7 +63,7 @@ def fit_vectorizer(corpus):
 ```
 
 ### 2. n_grams_seqs function
-```
+```PYTHON
 # GRADED FUNCTION: n_gram_seqs
 
 def n_gram_seqs(corpus, vectorizer):
@@ -95,7 +95,7 @@ def n_gram_seqs(corpus, vectorizer):
 ```
 
 ### 3. pad_seqs function
-```
+```PYTHON
 # GRADED FUNCTION: pad_seqs
 
 def pad_seqs(input_sequences, max_sequence_len):
@@ -126,7 +126,7 @@ def pad_seqs(input_sequences, max_sequence_len):
     return padded_sequences
 ```
 ### 4. features_and_labels_dataset function
-```
+```PYTHON
 # GRADED FUNCTION: features_and_labels
 
 def features_and_labels_dataset(input_sequences, total_words):
@@ -163,7 +163,7 @@ def features_and_labels_dataset(input_sequences, total_words):
 ```
 
 ### 5.create_model function
-```
+```PYTHON
 # GRADED FUNCTION: create_model
 
 def create_model(total_words, max_sequence_len):
@@ -206,28 +206,20 @@ def create_model(total_words, max_sequence_len):
 
 ## OUTPUT
 ### 1. fit_vectorizer output
-
-
-
+![image](https://github.com/user-attachments/assets/1236fd12-8c29-44a1-9749-73419cae126d)
 
 ### 2. n_grams_seqs output
-
-
+![image](https://github.com/user-attachments/assets/230f4fa0-3701-45f0-bd66-2457d887411e)
 
 ### 3. pad_seqs output
-
-
+![image](https://github.com/user-attachments/assets/5a606230-4222-4977-a6b5-60f75252f92e)
 
 ### 4. features_and_labels_dataset output
-
+![image](https://github.com/user-attachments/assets/15efc90d-bcea-455d-beb0-4734f376b66f)
 
 ### 5. Training Loss, Validation Loss Vs Iteration Plot
 
-
-
 ### 6. Sample Text Prediction
-
-
 
 ## RESULT
 
